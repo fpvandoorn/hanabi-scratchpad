@@ -77,12 +77,21 @@
 <!-- ### Traumatized -->
 <!-- ### Wasteful -->
 ### Genius
-* Both clues should generally be a play clue, save clue, early save clue (on a critical known unplayable), tempo clue.
+* Both clues should generally be a play clue, save clue, early save clue (on a critical known unplayable), tempo clue, or fix clue.
+* On the first clue of the game, this is definitely not always the case.
+  * The default interpretation is as follows:
+    * non-1 + color: play the focus of the color clue, (early) save the number cards (assuming the color clue was given first)
+    * 1 + color touching one of the 1s: gives tempo on the focus of the color clue (assuming 1 was given first)
+    * 1 + color not touching a 1: early save on cards touched by color
+  * The second clue is interpreted as a finesse if there is a clearly better clue available to Genius.
+
 <!-- ### Panicky -->
 <!-- ### Contrarian -->
 ### Stubborn
-* The stubborn player should respect that an out-of-order move is a priority bluff on the next player.
-* Schrodinger's Cat principle applies: the stubborn player should respect both possibilities.
+* The Stubborn player should respect that an out-of-order move is a priority bluff on the next player.
+* Schrodinger's Cat principle applies: the Stubborn player should respect both possibilities.
+* The player before the Stubborn player can discard rather than saving the Stubborn player.
+
 ### Blind Spot
 * This is one of the characters that is hardest to play with for teammates.
 * You can never bluff the player with Blind Spot.
@@ -90,6 +99,8 @@
 * Can the player before Blind Spot bluff the player after Blind Spot? I think so, but it might be a true finesse?
 * You can finesse the player with Blind Spot, but it will be slow, since they will wait a round for the next player to play into it.
   * Therefore, the player after the player with Blind splot should (almost) never hesitate into playing into finesses.
+* You can't give a clue to the player with Blind Spot that is a reverse finesse on the player after the player with blind spot.
+
 ### Oblivious
 * This is mostly hard for teammates. Don't forget that the Oblivious character cannot see one hand when making decisions!
 ### Slow-Witted
