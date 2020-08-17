@@ -34,7 +34,7 @@
 
 ## Conventions
 
-General:
+### General
 * Take extra caution when interpreting moves as unnecessary moves, occupied moves or loaded moves.
   There might be a good other reason.
 
@@ -55,20 +55,30 @@ General:
 * Reverse finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
 ### Quacker
 * Players do not have to respect finesses that other (not-too-occupied) players can give as well.
-<!-- ### Vulnerable -->
+### Vulnerable
+* Color saves are on for 5s, but not for 2s(?). However, they are play clues when it is loaded
+  or occupied (but beware: two color clues in a row could be two color saves on 5s).
 <!-- ### Color-Blind -->
-<!-- ### Follower -->
-<!-- ### Impulsive -->
+### Follower
+* Can be finessed on cards which are not yet playable??
+### Impulsive
+* All clues on slot 1 are (of course) focus inversion / forward finesses.
 <!-- ### Indolent -->
 ### Hesitant
-* Slot 2 is their finesse position. Layered finesses or stacked finesses go slot 2-1-3-4-5.
+* Slot 2 is their finesse position.
+* This applies to finesses, bluffs, gentleman's discard, etc.
+* If there is enough context that it is not slot 2, it is slot 1 (not slot 3).
+* Layered finesses or stacked finesses go slot 2-1-3-4-5.
 <!-- ### Anxious -->
 <!-- ### Traumatized -->
 <!-- ### Wasteful -->
-<!-- ### Genius -->
+### Genius
+* Both clues should generally be a play clue, save clue, early save clue (on a critical known unplayable), tempo clue.
 <!-- ### Panicky -->
 <!-- ### Contrarian -->
-<!-- ### Stubborn -->
+### Stubborn
+* The stubborn player should respect that an out-of-order move is a priority bluff on the next player.
+* Schrodinger's Cat principle applies: the stubborn player should respect both possibilities.
 <!-- ### Blind Spot -->
 <!-- ### Oblivious -->
 <!-- ### Slow-Witted -->
