@@ -84,10 +84,12 @@
   However, they are play clues when it is loaded or occupied.
 * Very early clues color clues on chop, when many other clues are available, are not save clues.
 
-<!-- ### Indolent -->
+### Indolent
+* Indolent can make small lies when Gentleman's discarding, if it's not too costly.
+
 ### Hesitant
 * Slot 2 is their finesse position.
-* This applies to finesses, bluffs, gentleman's discard, etc.
+* This applies to finesses, bluffs, Gentleman's discard, etc.
 * If there is enough context that it is not slot 2, it is slot 1 (not slot 3).
 * Layered finesses or stacked finesses go slot 2-1-3-4-5.
 <!-- ### Anxious -->
