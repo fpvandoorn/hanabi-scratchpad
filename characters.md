@@ -92,6 +92,7 @@
 <!-- ### Wasteful -->
 ### Genius
 * Both clues should generally be a play clue, save clue, early save clue (on a critical known unplayable), tempo clue, or fix clue.
+* Genius should generally opt for a weaker clue (touching the focus of the card twice) if the more efficient clue can be misinterpreted as a finesse.
 * On the first clue of the game, this is definitely not always the case.
   * The default interpretation is as follows:
     * non-1 + color: play the focus of the color clue, (early) save the number cards (assuming the color clue was given first)
@@ -130,3 +131,13 @@
 * Slow-witted finesses cards from slot 2 (of course)
 * The clues by Slow-witted that doesn't touch chop focuses slot 2.
 * If slot 1 is touched, it is not considered to be touched??
+* Giving a forward or reverse finesse that passes over the Slow-witted player, makes the finesse position slot 2.
+  * In other words: if the Slow-witted player has a chance to play into a finesse, it must see the finessed card in order to not play into it yet.
+  * The slow-witted Finesse position is always slot 1.
+  * Example 1: Cathy is Slow-witted. Turn 1: Alice clues r4 with red in Emily's hand. Bob plays r1 from slot 1. Cathy sees r2 in Donald's slot 2, so doesn't play. Donald plays r2 from slot 2. Cathy has r3 in slot 1, so that is the last called card.
+  * Example 2: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 3. Emily plays y2 from slot 1, since Cathy didn't have a turn to play into it.
+  * Example 3: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 4. This time Cathy has y2 in slot 1, which this clue gets, and gets y3 from Emily's slot 1, since Cathy didn't have a chance to play the y3 yet.
+  * Example 4: Cathy is Slow-witted. Alice clues y to Bob, touching y4. Donald has y2 y1 y3 r5. Donald will play y1, then y2, then y3 into this clue.
+  * Example 5: Cathy is Slow-witted. Alice clues the r2 in Donald's hand, finessing Cathy's slot 1. Bob clues the b2 in Alice's hand. Since Cathy is already blind-playing, and could not respond to the blue clue yet, Donald plays b1 from slot 1.
+* Forward + Reversed Finesse gets slot 1
+* Double reverse finesses go from slot 2 ->
