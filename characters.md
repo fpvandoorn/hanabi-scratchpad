@@ -23,6 +23,7 @@
 * Vulnerable: Cannot receive a number 2 or number 5 clue.
 * Color-Blind: Cannot receive a color clue.
 * Follower: Cannot play a card unless two cards of that same rank have already been played.
+  * If the follower tries to play a card, and 0 or 1 cards of that rank have already been played, this is considered a misplay, and the card goes in the discard pile.
 * Impulsive: Must play slot 1 if it has been clued.
 * Indolent: Cannot play a card if they played on the last round.
 * Hesitant: Cannot play cards from slot 1.
@@ -30,7 +31,9 @@
 * Traumatized: Cannot discard if there is an odd number of clues available.
 * Wasteful: Cannot discard if there are 2 or more clues available.
 * Genius: Must clue both a color and a number (uses 2 clues).
+  * The color clue **must** be given before the color clue. It is not legal to clue number first.
 * Panicky: After discarding, discards again if there are 4 clues or less.
+  * If a Panicky player discards, and before the discard there are 3 or fewer clues, then the player immediately discards another card on the same turn.
 * Contrarian: Play order inverts after taking a turn; 2-turn end game.
   * The game order changes after every turn of the Contrarian, for example if C is contrarian, the turns go `A B C B A E D C D E A B C B A E D C D E ...`
   * Moreover, after the last card is drawn, there are only two more turns before the game ends.
@@ -100,7 +103,9 @@
     * 1 + color not touching a 1: early save on cards touched by color
   * The second clue is interpreted as a finesse if there is a clearly better clue available to Genius.
 
-<!-- ### Panicky -->
+### Panicky
+* 1-away saves should be respected (on low clues), and preferably be given with number.
+
 ### Contrarian
 * The Pace is displayed incorrectly with 3+ players. Subtract `#players - 2` to get the actual pace. (so in a 5-player game, subtract 3).
 * Efficiency in 5p No Variant is `1.39`.
@@ -133,7 +138,7 @@
 * If slot 1 is touched, it is not considered to be touched??
 * Giving a forward or reverse finesse that passes over the Slow-witted player, makes the finesse position slot 2.
   * In other words: if the Slow-witted player has a chance to play into a finesse, it must see the finessed card in order to not play into it yet.
-  * The slow-witted Finesse position is always slot 1.
+  * The slow-witted Finesse position is never moved to slot 2.
   * Example 1: Cathy is Slow-witted. Turn 1: Alice clues r4 with red in Emily's hand. Bob plays r1 from slot 1. Cathy sees r2 in Donald's slot 2, so doesn't play. Donald plays r2 from slot 2. Cathy has r3 in slot 1, so that is the last called card.
   * Example 2: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 3. Emily plays y2 from slot 1, since Cathy didn't have a turn to play into it.
   * Example 3: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 4. This time Cathy has y2 in slot 1, which this clue gets, and gets y3 from Emily's slot 1, since Cathy didn't have a chance to play the y3 yet.
