@@ -18,7 +18,7 @@
 * Mood Swings: Clues given must alternate between color and number.
   * Can start with any clue. From then on, if the previous clue was color, must clue number and vice versa.
 * Insistent: Must continue to clue the same card(s) until one of them is played or discarded.
-  * When cluing, this character goes in "insistent state" (if it's not in one already). While in "insistent state" they must keep giving a clue that touches at least one of the cards touched originally. Goes out of insistent state when one of the cards *originally* clued has been played or discarded
+  * When cluing, this character goes in "insistent state" (if it's not in one already). While in "insistent state" they must keep giving a clue that touches at least one of the cards touched originally. Goes out of insistent state when one of the cards *originally* clued has been played or discarded.
 * Quacker: Can only quack instead of clue.
 * Vulnerable: Cannot receive a number 2 or number 5 clue.
 * Color-Blind: Cannot receive a color clue.
@@ -32,6 +32,10 @@
 * Genius: Must clue both a color and a number (uses 2 clues).
 * Panicky: After discarding, discards again if there are 4 clues or less.
 * Contrarian: Play order inverts after taking a turn; 2-turn end game.
+  * The game order changes after every turn of the Contrarian, for example if C is contrarian, the turns go `A B C B A E D C D E A B C B A E D C D E ...`
+  * Moreover, after the last card is drawn, there are only two more turns before the game ends.
+  * Without bottom-deck blind play, this means that the only way to play the bottom card of the deck is when the player just before the contrarian draws the last card of the deck
+  * The Pace is displayed incorrectly with 3+ players. Subtract `#players - 2` to get the actual pace. (so in a 5-player game, subtract 3).
 * Stubborn: Must perform a different action type than the player that came before them.
 * Blind Spot: Cannot see the cards of the next player.
   * To be more precise: this is the player to their left / below them, which might be different in games with Contrarian.
@@ -65,14 +69,18 @@
 * Players do not have to respect finesses that other (not-too-occupied) players can give as well.
 * Treat all clues given by Quacker as loaded play clues
 ### Vulnerable
-* Color saves are on for 5s, but not for 2s(?). However, they are play clues when it is loaded
+* Color saves are on for 5s, but not for 2s. However, they are play clues when it is loaded
   or occupied (but beware: two color clues in a row could be two color saves on 5s).
-* Very early clues, when many other clues are available, can
+* Very early clues color clues on chop, when many other clues are available, are not save clues.
 <!-- ### Color-Blind -->
 ### Follower
 * Can be finessed on cards which are not yet playable??
 ### Impulsive
-* All clues on slot 1 are (of course) focus inversion / forward finesses.
+* All clues on slot 1 are (of course) forward finesses / focus inversion.
+* 5s on chop can be saved with color if slot 1 has the same rank. Non-critical 2s cannot be saved with color.
+  However, they are play clues when it is loaded or occupied.
+* Very early clues color clues on chop, when many other clues are available, are not save clues.
+
 <!-- ### Indolent -->
 ### Hesitant
 * Slot 2 is their finesse position.
@@ -96,7 +104,10 @@
 * The Pace is displayed incorrectly with 3+ players. Subtract `#players - 2` to get the actual pace. (so in a 5-player game, subtract 3).
 * Efficiency in 5p No Variant is `1.39`.
 * Order chop moves and other moves that affect the next player depend on the direction of the turn order.
-* If you have two cards to play, one with higher priority than the other (for example if one card is finessed). Furthermore, suppose that the card with higher priority leads into a player's hand that doesn't have a turn before your next turn, and the card with lower priority leads into a player's hand that does have a turn before your next turn. Then you can play the card with lower priority.
+* If you have two cards to play, one with higher priority than the other (for example if one card is finessed).
+  Furthermore, suppose that the card with higher priority leads into a player's hand that doesn't have a turn before your next turn,
+  and the card with lower priority leads into a player's hand that does have a turn before your next turn.
+  Then you can play the card with lower priority.
 
 ### Stubborn
 * The Stubborn player should respect that an out-of-order move is a priority bluff on the next player.
