@@ -9,13 +9,16 @@
 * Picky: Can only clue odd numbers or odd colors.
   * Can only clue red, green, purple, 1, 3, 5.
 * Spiteful: Cannot clue the next player.
+  * To be more precise: this is the player to their left / below them, which might be different in games with Contrarian.
 * Insolent: Cannot clue the previous player.
+  * To be more precise: this is the player to their right / above them, which might be different in games with Contrarian.
 * Vindictive: Must clue if they received a clue since their last turn.
 * Miser: Can only clue if there are 4 or more clues available.
 * Compulsive: Can only clue if it touches the newest or oldest card in someone's hand.
 * Mood Swings: Clues given must alternate between color and number.
   * Can start with any clue. From then on, if the previous clue was color, must clue number and vice versa.
 * Insistent: Must continue to clue the same card(s) until one of them is played or discarded.
+  * When cluing, this character goes in "insistent state" (if it's not in one already). While in "insistent state" they must keep giving a clue that touches at least one of the cards touched originally. Goes out of insistent state when one of the cards *originally* clued has been played or discarded
 * Quacker: Can only quack instead of clue.
 * Vulnerable: Cannot receive a number 2 or number 5 clue.
 * Color-Blind: Cannot receive a color clue.
@@ -31,7 +34,9 @@
 * Contrarian: Play order inverts after taking a turn; 2-turn end game.
 * Stubborn: Must perform a different action type than the player that came before them.
 * Blind Spot: Cannot see the cards of the next player.
+  * To be more precise: this is the player to their left / below them, which might be different in games with Contrarian.
 * Oblivious: Cannot see the cards of the previous player.
+  * To be more precise: this is the player to their right / above them, which might be different in games with Contrarian.
 * Slow-Witted: Cannot see cards in slot 1.
 
 ## Conventions
@@ -39,6 +44,7 @@
 ### General
 * Take extra caution when interpreting moves as unnecessary moves, occupied moves or loaded moves.
   There might be a good other reason.
+* 5 player character games are considered Hard Variants.
 
 <!-- ### Fuming -->
 <!-- ### Dumbfounded -->
@@ -86,7 +92,12 @@
   * The second clue is interpreted as a finesse if there is a clearly better clue available to Genius.
 
 <!-- ### Panicky -->
-<!-- ### Contrarian -->
+### Contrarian
+* The Pace is displayed incorrectly with 3+ players. Subtract `#players - 2` to get the actual pace. (so in a 5-player game, subtract 3).
+* Efficiency in 5p No Variant is `1.39`.
+* Order chop moves and other moves that affect the next player depend on the direction of the turn order.
+* If you have two cards to play, one with higher priority than the other (for example if one card is finessed). Furthermore, suppose that the card with higher priority leads into a player's hand that doesn't have a turn before your next turn, and the card with lower priority leads into a player's hand that does have a turn before your next turn. Then you can play the card with lower priority.
+
 ### Stubborn
 * The Stubborn player should respect that an out-of-order move is a priority bluff on the next player.
 * Schrodinger's Cat principle applies: the Stubborn player should respect both possibilities.
@@ -103,6 +114,7 @@
 
 ### Oblivious
 * This is mostly hard for teammates. Don't forget that the Oblivious character cannot see one hand when making decisions!
+
 ### Slow-Witted
 * Slow-witted finesses cards from slot 2 (of course)
 * The clues by Slow-witted that doesn't touch chop focuses slot 2.
