@@ -153,6 +153,7 @@
 * The oblivious player does not have to respect a second-blind play from the player before them for finesses that also involve the oblivious player.
   * They do have to respect prompts that can get more than one card from the invisible player
   * The exception is when they have another playable card, or a good clue to give, then they should do the other action before playing the card that was clued in their hand (they cannot wait if they were also finessed).
+  * If two separate finesses are given, the Oblivious character does not have to respect that both are on the hidden player, and can immediately play into one of them.
 
 ### Slow-Witted
 * Slow-witted finesses cards from slot 2 (of course)
@@ -160,6 +161,7 @@
 * If slot 1 is touched, it is not considered to be touched??
 * Giving a forward or reverse finesse that passes over the Slow-witted player, makes the finesse position slot 2.
   * In other words: if the Slow-witted player has a chance to play into a finesse, it must see the finessed card in order to not play into it yet.
+  * In all cases where the Slow-witted player has no chance to respond to a finesse, it calls slot 1, as usual.
   * The slow-witted Finesse position is never moved to slot 2.
   * Example 1: Cathy is Slow-witted. Turn 1: Alice clues r4 with red in Emily's hand. Bob plays r1 from slot 1. Cathy sees r2 in Donald's slot 2, so doesn't play. Donald plays r2 from slot 2. Cathy has r3 in slot 1, so that is the last called card.
   * Example 2: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 3. Emily plays y2 from slot 1, since Cathy didn't have a turn to play into it.
