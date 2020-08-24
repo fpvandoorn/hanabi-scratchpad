@@ -56,8 +56,10 @@
 
 <!-- ### Fuming -->
 <!-- ### Dumbfounded -->
-<!-- ### Inept -->
-<!-- ### Awkward -->
+### Inept
+* Make sure to mark all touched cards with negative [color].
+### Awkward
+* Make sure to mark all touched cards with negative [number].
 <!-- ### Conservative -->
 <!-- ### Greedy -->
 <!-- ### Picky -->
@@ -66,9 +68,13 @@
 ### Vindictive
 * They can give locked hand saves when they have to clue.
 * Vindictive Rank Clue: the player just before the Vindictive player can rank 2, 3 or 4 clue any useful unplayable card (or rank when the color clue is equally good/better)
-  * This instructs the Vindictive player to play slot 2, 3, 4.
+  * This is interpreted as a positional clue to the Vindictive player, to instruct them to play slot 2, 3, 4.
+  * Exception 1: The player before vindictive has a character with clue-giving restrictions.
+  * Exception 2: The player before vindictive is the only player who can give the clue, colour is blocked, and only one blindplay is called.
   * The touched cards are considered touched, but nothing is communicated about them being playable.
   * Because of this, the Vindictive player can usually not be bluffed with number.
+
+, any rank 2, 3, or 4 clue they give should be a positional rather than bluff ().
 <!-- ### Miser -->
 <!-- ### Compulsive -->
 <!-- ### Mood Swings -->
