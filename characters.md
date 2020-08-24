@@ -52,6 +52,8 @@
 * Take extra caution when interpreting moves as unnecessary moves, occupied moves or loaded moves.
   There might be a good other reason.
 * 5 player character games are considered Hard Variants.
+* Generally, when a player is forced to clue by their character they can give locked hand saves (but not 8 clue stalls) to other players if there is nothing better to do.
+
 
 <!-- ### Fuming -->
 <!-- ### Dumbfounded -->
@@ -62,7 +64,8 @@
 <!-- ### Picky -->
 <!-- ### Spiteful -->
 <!-- ### Insolent -->
-<!-- ### Vindictive -->
+### Vindictive
+* They can give locked hand saves when they have to clue.
 <!-- ### Miser -->
 <!-- ### Compulsive -->
 <!-- ### Mood Swings -->
@@ -135,6 +138,9 @@
 
 ### Oblivious
 * This is mostly hard for teammates. Don't forget that the Oblivious character cannot see one hand when making decisions!
+* The oblivious player does not have to respect a second-blind play from the player before them for finesses that also involve the oblivious player.
+  * They do have to respect prompts that can get more than one card from the invisible player
+  * The exception is when they have another playable card, or a good clue to give, then they should do the other action before playing the card that was clued in their hand (they cannot wait if they were also finessed).
 
 ### Slow-Witted
 * Slow-witted finesses cards from slot 2 (of course)
