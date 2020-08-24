@@ -92,6 +92,7 @@
 ### Insistent
 * Reverse finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
 * Playing a card clued by Insistent has priority over playing into finesses.
+* If the Insistent player gives a trasj chop move, that is almost never unnecessary (since insistent doesn't want to give save clues)
 
 ### Quacker
 * Players do not have to respect finesses that other (not-too-occupied) players can give as well.
@@ -177,8 +178,7 @@
 
 ### Slow-Witted
 * Slow-witted finesses cards from slot 2 (of course)
-* The clues by Slow-witted that doesn't touch chop focuses slot 2.
-* If slot 1 is touched, it is not considered to be touched??
+* If slot 1 is touched by Slow-witted, it is not considered to be touched by the clue (and hence never the focus).
 * Giving a forward or reverse finesse that passes over the Slow-witted player, makes the finesse position slot 2.
   * In other words: if the Slow-witted player has a chance to play into a finesse, it must see the finessed card in order to not play into it yet.
   * In all cases where the Slow-witted player has no chance to respond to a finesse, it calls slot 1, as usual.
