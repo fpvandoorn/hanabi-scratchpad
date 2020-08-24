@@ -54,7 +54,6 @@
 * 5 player character games are considered Hard Variants.
 * Generally, when a player is forced to clue by their character they can give locked hand saves (but not 8 clue stalls) to other players if there is nothing better to do.
 
-
 <!-- ### Fuming -->
 <!-- ### Dumbfounded -->
 <!-- ### Inept -->
@@ -66,6 +65,10 @@
 <!-- ### Insolent -->
 ### Vindictive
 * They can give locked hand saves when they have to clue.
+* Vindictive Rank Clue: the player just before the Vindictive player can rank 2, 3 or 4 clue any useful unplayable card (or rank when the color clue is equally good/better)
+  * This instructs the Vindictive player to play slot 2, 3, 4.
+  * The touched cards are considered touched, but nothing is communicated about them being playable.
+  * Because of this, the Vindictive player can usually not be bluffed with number.
 <!-- ### Miser -->
 <!-- ### Compulsive -->
 <!-- ### Mood Swings -->
@@ -73,7 +76,9 @@
 * Reverse finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
 ### Quacker
 * Players do not have to respect finesses that other (not-too-occupied) players can give as well.
-* Treat all clues given by Quacker as loaded play clues
+* Treat all clues given by Quacker as loaded play clues.
+* Quacking on a 5 should be interpreted as a 5 color ejection.
+* Read the [Duck conventions](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Duck.md).
 ### Vulnerable
 * Color saves are on for 5s, but not for 2s. However, they are play clues when it is loaded
   or occupied (but beware: two color clues in a row could be two color saves on 5s).
