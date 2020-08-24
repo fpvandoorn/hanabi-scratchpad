@@ -80,6 +80,7 @@
 <!-- ### Mood Swings -->
 ### Insistent
 * Reverse finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
+* Playing a card clued by Insistent has priority over playing into finesses.
 ### Quacker
 * Players do not have to respect finesses that other (not-too-occupied) players can give as well.
 * Treat all clues given by Quacker as loaded play clues.
