@@ -75,7 +75,9 @@
 * Color saves are on for 5s, but not for 2s. However, they are play clues when it is loaded
   or occupied (but beware: two color clues in a row could be two color saves on 5s).
 * Very early clues color clues on chop, when many other clues are available, are not save clues.
-<!-- ### Color-Blind -->
+### Color-Blind
+* 5s Compromise is on: when any 5 is playable, you cannot 5 chop move (or in the early game 5 stall/pull).
+
 ### Follower
 * Can be finessed on cards which are not yet playable??
 ### Impulsive
