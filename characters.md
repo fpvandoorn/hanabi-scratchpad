@@ -55,16 +55,25 @@
 * Generally, when a player is forced to clue by their character they can give locked hand saves (but not 8 clue stalls) to other players if there is nothing better to do.
 
 <!-- ### Fuming -->
+
 <!-- ### Dumbfounded -->
+
 ### Inept
 * Make sure to mark all touched cards with negative [color].
+
 ### Awkward
 * Make sure to mark all touched cards with negative [number].
+
 <!-- ### Conservative -->
+
 <!-- ### Greedy -->
+
 <!-- ### Picky -->
+
 <!-- ### Spiteful -->
+
 <!-- ### Insolent -->
+
 ### Vindictive
 * They can give locked hand saves when they have to clue.
 * Vindictive Rank Clue: the player just before the Vindictive player can rank 2, 3 or 4 clue any useful unplayable card (or rank when the color clue is equally good/better)
@@ -74,27 +83,33 @@
   * The touched cards are considered touched, but nothing is communicated about them being playable.
   * Because of this, the Vindictive player can usually not be bluffed with number.
 
-, any rank 2, 3, or 4 clue they give should be a positional rather than bluff ().
 <!-- ### Miser -->
+
 <!-- ### Compulsive -->
+
 <!-- ### Mood Swings -->
+
 ### Insistent
 * Reverse finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
 * Playing a card clued by Insistent has priority over playing into finesses.
+
 ### Quacker
 * Players do not have to respect finesses that other (not-too-occupied) players can give as well.
 * Treat all clues given by Quacker as loaded play clues.
 * Quacking on a 5 should be interpreted as a 5 color ejection.
 * Read the [Duck conventions](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Duck.md).
+
 ### Vulnerable
 * Color saves are on for 5s, but not for 2s. However, they are play clues when it is loaded
   or occupied (but beware: two color clues in a row could be two color saves on 5s).
 * Very early clues color clues on chop, when many other clues are available, are not save clues.
+
 ### Color-Blind
 * 5s Compromise is on: when any 5 is playable, you cannot 5 chop move (or in the early game 5 stall/pull).
 
 ### Follower
 * Can be finessed on cards which are not yet playable??
+
 ### Impulsive
 * All clues on slot 1 are (of course) forward finesses / focus inversion.
 * 5s on chop can be saved with color if slot 1 has the same rank. Non-critical 2s cannot be saved with color.
@@ -109,9 +124,14 @@
 * This applies to finesses, bluffs, Gentleman's discard, etc.
 * If there is enough context that it is not slot 2, it is slot 1 (not slot 3).
 * Layered finesses or stacked finesses go slot 2-1-3-4-5.
+* Ejection position is slot 3, discharge position is slot 4.
+
 <!-- ### Anxious -->
+
 <!-- ### Traumatized -->
+
 <!-- ### Wasteful -->
+
 ### Genius
 * Both clues should generally be a play clue, save clue, early save clue (on a critical known unplayable), tempo clue, or fix clue.
 * Genius should generally opt for a weaker clue (touching the focus of the card twice) if the more efficient clue can be misinterpreted as a finesse.
