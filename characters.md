@@ -35,7 +35,7 @@
 * Panicky: After discarding, discards again if there are 4 clues or less.
   * If a Panicky player discards, and before the discard there are 3 or fewer clues, then the player immediately discards another card on the same turn.
 * Picky: Can only clue odd numbers or odd colors.
-  * Can only clue red, green, purple, 1, 3, 5.
+  * In No Variant can only clue red, green, purple, 1, 3, 5.
 * Quacker: Can only quack instead of clue.
 * Slow-Witted: Cannot see cards in slot 1.
 * Spiteful: Cannot clue the next player.
