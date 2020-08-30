@@ -125,7 +125,7 @@
 ### Insistent
 * Reverse finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
 * Playing a card clued by Insistent has priority over playing into finesses.
-* If the Insistent player gives a trasj chop move, that is almost never unnecessary (since insistent doesn't want to give save clues)
+* If the Insistent player gives a trash chop move, that is almost never unnecessary (since insistent doesn't want to give save clues)
 
 <!-- ### Insolent -->
 
