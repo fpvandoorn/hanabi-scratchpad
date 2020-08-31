@@ -70,6 +70,7 @@
 
 ### Color-Blind
 * 5s Compromise is on: when any 5 is playable, you cannot 5 chop move (or in the early game 5 stall/pull).
+* 5 stalls in DDA are still on, but 5s in other hands should be favored if they are the same distance to chop.
 
 <!-- ### Compulsive -->
 
@@ -111,7 +112,7 @@
 * Ejection position is slot 3, discharge position is slot 4.
 
 ### Impulsive
-* All clues on slot 1 are (of course) forward finesses / focus inversion.
+* All clues that touch slot 1 are focused on slot 1 (not on chop), and forward finesses if not currently playable.
 * 5s on chop can be saved with color if slot 1 has the same rank. Non-critical 2s cannot be saved with color.
   However, they are play clues when it is loaded or occupied.
 * Very early clues color clues on chop, when many other clues are available, are not save clues.
