@@ -70,7 +70,7 @@
 
 ### Color-Blind
 * 5s Compromise is on: when any 5 is playable, you cannot 5 chop move (or in the early game 5 stall/pull).
-* 5 stalls in DDA are still on, but 5s in other hands should be favored if they are the same distance to chop.
+* 5 stalls when you have a locked hand are still on, but 5s in other hands should be favored if they are the same distance to chop.
 
 <!-- ### Compulsive -->
 
