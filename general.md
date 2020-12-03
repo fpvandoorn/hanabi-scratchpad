@@ -9,3 +9,8 @@
 ### Certain finesses
 
 * Be careful with certain finesses. If it is reasonable that the clue giver known the identity of their card, don't discard finesse position, but just play it.
+
+### Double ignitions
+
+* We like double ignitions, especially with trash 1s not on chop, but other trash might also work.
+* Ignitions are not delayed (unless respecting a delay cannot cost anything).

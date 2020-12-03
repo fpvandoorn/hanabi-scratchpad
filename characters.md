@@ -69,8 +69,9 @@
 * You can't give a clue to the player with Blind Spot that is a reverse finesse on the player after the player with blind spot.
 
 ### Color-Blind
-* 5s Compromise is on: when any 5 is playable, you cannot 5 chop move (or in the early game 5 stall/pull).
+* 5s Compromise is on: when any 5 is playable, you cannot 5 chop move (5 stall/pull in the low score phase).
 * 5 stalls when you have a locked hand are still on, but 5s in other hands should be favored if they are the same distance to chop.
+* Recluing number generally means to play from the right (and if a single tempo clue is valuable enough, it doesn't promise the rest).
 
 <!-- ### Compulsive -->
 
