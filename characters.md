@@ -38,6 +38,7 @@
   * In No Variant can only clue red, green, purple, 1, 3, 5.
 * Quacker: Can only quack instead of clue.
 * Slow-Witted: Cannot see cards in slot 1.
+  * This player still clues cards in slot 1 if they match the given clue.
 * Spiteful: Cannot clue the next player.
   * To be more precise: this is the player to their left / below them, which might be different in games with Contrarian.
 * Stubborn: Must perform a different action type than the player that came before them.
@@ -155,7 +156,7 @@
 
 ### Slow-Witted
 * Slow-witted finesses cards from slot 2 (of course)
-* If slot 1 is touched by Slow-witted, it is not considered to be touched by the clue (and hence never the focus).
+* If slot 1 is touched by Slow-witted, it is not considered to be touched by the clue (and hence never the focus), except if it's known to be critical (e.g. it is clued 5).
 * Giving a forward or reverse finesse that passes over the Slow-witted player, makes the finesse position slot 2.
   * In other words: if the Slow-witted player has a chance to play into a finesse, it must see the finessed card in order to not play into it yet.
   * In all cases where the Slow-witted player has no chance to respond to a finesse, it calls slot 1, as usual.
@@ -165,6 +166,10 @@
   * Example 3: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 4. This time Cathy has y2 in slot 1, which this clue gets, and gets y3 from Emily's slot 1, since Cathy didn't have a chance to play the y3 yet.
   * Example 4: Cathy is Slow-witted. Alice clues y to Bob, touching y4. Donald has y2 y1 y3 r5. Donald will play y1, then y2, then y3 into this clue.
   * Example 5: Cathy is Slow-witted. Alice clues the r2 in Donald's hand, finessing Cathy's slot 1. Bob clues the b2 in Alice's hand. Since Cathy is already blind-playing, and could not respond to the blue clue yet, Donald plays b1 from slot 1.
+* If the Slow-witted cannot possibly respond to a reverse finesse (e.g. all cards in their hand are clued), then the finesse always calls slot 1.
+  * Example 6: Cathy is Slow-witted. Alice clues 3 to Cathy, touching all cards in Cathy's hand. Donald plays b1 from slot 1, Emily plays b2 from slot 1, Cathy plays b3 from chop.
+  * Example 7: Cathy is Slow-witted, and r2 is played. Alice clues 3 to Cathy, touching all cards in Cathy's hand. Cathy knows nothing beyond this. Since Cathy can immediately play the chop 3 as r3 if Cathy doesn't see finessable cards, the finesse calls b1 from Donald's slot 2 and b2 from Emily's slot 2.
+
 
 <!-- ### Spiteful -->
 
