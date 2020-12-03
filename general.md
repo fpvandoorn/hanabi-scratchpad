@@ -12,5 +12,7 @@
 
 ### Double ignitions
 
+* This may or may not be the official conventions, I'm not too up-to-date to them.
 * We like double ignitions, especially with trash 1s not on chop, but other trash might also work.
 * Ignitions are not delayed (unless respecting a delay cannot cost anything).
+* Unnecessary trash chop moves and unnecessary trash pushes take priority over double ignitions (if they make sense).

@@ -166,7 +166,7 @@
   * Example 3: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 4. This time Cathy has y2 in slot 1, which this clue gets, and gets y3 from Emily's slot 1, since Cathy didn't have a chance to play the y3 yet.
   * Example 4: Cathy is Slow-witted. Alice clues y to Bob, touching y4. Donald has y2 y1 y3 r5. Donald will play y1, then y2, then y3 into this clue.
   * Example 5: Cathy is Slow-witted. Alice clues the r2 in Donald's hand, finessing Cathy's slot 1. Bob clues the b2 in Alice's hand. Since Cathy is already blind-playing, and could not respond to the blue clue yet, Donald plays b1 from slot 1.
-* If the Slow-witted cannot possibly respond to a reverse finesse (e.g. all cards in their hand are clued), then the finesse always calls slot 1.
+* If the Slow-witted cannot possibly respond to a finesse (e.g. all cards in their hand are clued), then the finesse always calls slot 1.
   * Example 6: Cathy is Slow-witted. Alice clues 3 to Cathy, touching all cards in Cathy's hand. Donald plays b1 from slot 1, Emily plays b2 from slot 1, Cathy plays b3 from chop.
   * Example 7: Cathy is Slow-witted, and r2 is played. Alice clues 3 to Cathy, touching all cards in Cathy's hand. Cathy knows nothing beyond this. Since Cathy can immediately play the chop 3 as r3 if Cathy doesn't see finessable cards, the finesse calls b1 from Donald's slot 2 and b2 from Emily's slot 2.
 
