@@ -145,7 +145,8 @@
 
 ### Quacker
 * Players do not have to respect finesses that other (not-too-occupied) players can give as well.
-* Treat all clues given by Quacker as loaded play clues.
+* Quacker can only save cards that no other (not-too-occupied) player can give
+* All clues given by Quacker to an occupied player are loaded play clues.
 * Quacking on a 5 should be interpreted as a 5 color ejection.
 * Read the [Duck conventions](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Duck.md).
 
