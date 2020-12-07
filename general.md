@@ -16,3 +16,4 @@
 * We like double ignitions, especially with trash 1s not on chop, but other trash might also work.
 * Ignitions are not delayed (unless respecting a delay cannot cost anything).
 * Unnecessary trash chop moves and unnecessary trash pushes take priority over double ignitions (if they make sense).
+* Unnecessary trash chop moves and unnecessary trash pushes can tell **any** player to play slot 1 (other than the clue receiver)

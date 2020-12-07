@@ -108,7 +108,7 @@
 
 ### Hesitant
 * Slot 2 is their finesse position.
-* This applies to finesses, bluffs, Gentleman's discard, etc.
+* This applies to finesses, bluffs, Gentleman's discard, ignition, etc.
 * If there is enough context that it is not slot 2, it is slot 1 (not slot 3).
 * Layered finesses or stacked finesses go slot 2-1-3-4-5.
 * Ejection position is slot 3, discharge position is slot 4.
@@ -151,6 +151,8 @@
 
 ### Panicky
 * 1-away saves should be respected (on low clues), and preferably be given with number.
+* If the Panicky player discard the 2 cards closest to chop (the two expected discards) out of order, it is a chop move on the next player (if that doesn't make sense it is a positional).
+
 
 <!-- ### Picky -->
 
@@ -174,7 +176,7 @@
 <!-- ### Spiteful -->
 
 ### Stubborn
-* The Stubborn player should respect that an out-of-order move is a priority bluff on the next player.
+* The Stubborn player should respect that an out-of-order play is a priority bluff on the next player.
 * Schrodinger's Cat principle applies: the Stubborn player should respect both possibilities.
 * The player before the Stubborn player can discard rather than saving the Stubborn player.
 
@@ -182,16 +184,19 @@
 
 ### Vindictive
 * They can give locked hand saves when they have to clue.
-* Vindictive Rank Clue: the player just before the Vindictive player can rank 2, 3 or 4 clue any useful unplayable card (or rank when the color clue is equally good/better)
+* Vindictive Rank Clue: the player just before the Vindictive player can rank 2, 3 or 4 clue any useful unplayable card on any player other than the Vindictive player (or a 2-4 clue on a card that is directly playable when the color clue is equally good/better)
   * This is interpreted as a positional clue to the Vindictive player, to instruct them to play slot 2, 3, 4.
+  * This generally takes priority over finesses and bluffs. However, prompts take priority over Vindictive rank clues
   * Exception 1: The player before vindictive has a character with clue-giving restrictions.
-  * Exception 2: The player before vindictive is the only player who can give the clue, colour is blocked, and only one blindplay is called.
+  * Exception 2: The player before vindictive is the only player who can give the clue, colour is blocked, and only one blindplay is called. In this case, a finesse/bluff takes priority over Vindictive rank clues.
   * The touched cards are considered touched, but nothing is communicated about them being playable.
   * Because of this, the Vindictive player can usually not be bluffed with number.
+
 
 ### Vulnerable
 * Color saves are on for 5s, but not for 2s. However, they are play clues when it is loaded
   or occupied (but beware: two color clues in a row could be two color saves on 5s).
 * Very early clues color clues on chop, when many other clues are available, are not save clues.
+* Discarded 2s by the Vulnerable player do not generally cause elimination notes.
 
 <!-- ### Wasteful -->
