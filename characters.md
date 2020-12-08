@@ -63,11 +63,12 @@
 ### Blind Spot
 * This is one of the characters that is hardest to play with for teammates.
 * You can never bluff the player with Blind Spot.
-* They always have to respect that it is a finesse on the next player.
+* They always have to respect that a finesse is on the next player.
+* Even when the Blind player is deciding between a prompt on their hand or a Finesse on the next player, the blind player should respect a Finesse for one round
 * Can the player before Blind Spot bluff the player after Blind Spot? I think so, but it might be a true finesse?
 * You can finesse the player with Blind Spot, but it will be slow, since they will wait a round for the next player to play into it.
   * Therefore, the player after the player with Blind splot should (almost) never hesitate into playing into finesses.
-* You can't give a clue to the player with Blind Spot that is a reverse finesse on the player after the player with blind spot.
+* If you give a clue to the player with Blind Spot that looks like a direct play clue, the player with Blind Spot does not have to respect a reverse finesse on the next player.
 
 ### Color-Blind
 * 5s Compromise is on: when any 5 is playable, you cannot 5 chop move (5 stall/pull in the low score phase).
