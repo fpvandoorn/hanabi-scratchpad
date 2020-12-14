@@ -55,7 +55,8 @@
 * 5 player character games are considered Hard Variants.
 * Generally, when a player is forced to clue by their character they can give locked hand saves (but not 8 clue stalls) to other players if there is nothing better to do.
 
-<!-- ### Anxious -->
+### Anxious
+* If the anxious player is at 0 clues without plays, they play *Finesse Position* (usually slot 1). This is called an *Anxiety Play*.
 
 ### Awkward
 * Make sure to mark all touched cards with negative [number].
