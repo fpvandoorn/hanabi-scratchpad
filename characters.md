@@ -50,8 +50,8 @@
 ## Conventions
 
 ### General
-* Take extra caution when interpreting moves as unnecessary moves, occupied moves or loaded moves.
-  There might be a good other reason.
+* Take extra caution when interpreting moves as unnecessary moves, occupied moves, loaded moves,  or no-information double finesses/bluffs.
+  There might be a good other reason. If a clue cannot be given directly by some character restriction, it is not unnecessary.
 * 5 player character games are considered Hard Variants.
 * Generally, when a player is forced to clue by their character they can give locked hand saves (but not 8 clue stalls) to other players if there is nothing better to do.
 
@@ -128,7 +128,7 @@
 * Make sure to mark all touched cards with negative [color].
 
 ### Insistent
-* Reverse finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
+* Reverse finesses and self-finesses do not apply if it can be a forward finesse (unless the ability doesn't trigger).
 * Playing a card clued by Insistent has priority over playing into finesses.
 * If the Insistent player gives a trash chop move, that is almost never unnecessary (since insistent doesn't want to give save clues)
 
@@ -162,18 +162,20 @@
 ### Slow-Witted
 * Slow-witted finesses cards from slot 2 (of course)
 * If slot 1 is touched by Slow-witted, it is not considered to be touched by the clue (and hence never the focus), except if it's known to be critical (e.g. it is clued 5).
-* Giving a forward or reverse finesse that passes over the Slow-witted player, makes the finesse position slot 2.
-  * In other words: if the Slow-witted player has a chance to play into a finesse, it must see the finessed card in order to not play into it yet.
-  * In all cases where the Slow-witted player has no chance to respond to a finesse, it calls slot 1, as usual.
+* If the Slow-witted player has a chance to play into a finesse, it must see the finessed card in order to not play into it yet.
+  * This typically means that giving a forward or reverse finesse that passes over the Slow-witted player, the finesse position becomes slot 2.
   * The slow-witted Finesse position is never moved to slot 2.
   * Example 1: Cathy is Slow-witted. Turn 1: Alice clues r4 with red in Emily's hand. Bob plays r1 from slot 1. Cathy sees r2 in Donald's slot 2, so doesn't play. Donald plays r2 from slot 2. Cathy has r3 in slot 1, so that is the last called card.
   * Example 2: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 3. Emily plays y2 from slot 1, since Cathy didn't have a turn to play into it.
   * Example 3: Cathy is Slow-witted. Donald has a called y1, and Alice clues y to Donald, touching yellow 4. This time Cathy has y2 in slot 1, which this clue gets, and gets y3 from Emily's slot 1, since Cathy didn't have a chance to play the y3 yet.
   * Example 4: Cathy is Slow-witted. Alice clues y to Bob, touching y4. Donald has y2 y1 y3 r5. Donald will play y1, then y2, then y3 into this clue.
   * Example 5: Cathy is Slow-witted. Alice clues the r2 in Donald's hand, finessing Cathy's slot 1. Bob clues the b2 in Alice's hand. Since Cathy is already blind-playing, and could not respond to the blue clue yet, Donald plays b1 from slot 1.
-* If the Slow-witted cannot possibly respond to a finesse (e.g. all cards in their hand are clued), then the finesse always calls slot 1.
+  * If the Slow-witted cannot possibly respond to a finesse (e.g. all cards in their hand are clued), then the finesse always calls slot 1.
   * Example 6: Cathy is Slow-witted. Alice clues 3 to Cathy, touching all cards in Cathy's hand. Donald plays b1 from slot 1, Emily plays b2 from slot 1, Cathy plays b3 from chop.
   * Example 7: Cathy is Slow-witted, and r2 is played. Alice clues 3 to Cathy, touching all cards in Cathy's hand. Cathy knows nothing beyond this. Since Cathy can immediately play the chop 3 as r3 if Cathy doesn't see finessable cards, the finesse calls b1 from Donald's slot 2 and b2 from Emily's slot 2.
+  * If someone's slot 1 moves to slot 2 before the Slow-witted player has a chance to respond to a finesse, then this slot 1 is also called.
+  * Example 8: Cathy is Slow-witted, and Bob has a r1 play clued in slot 4. Alice clues red to Cathy.
+  Bob plays r1 this turn and r2 from from slot 2 next turn (slot 1 when the finesse was given).
 
 
 <!-- ### Spiteful -->
